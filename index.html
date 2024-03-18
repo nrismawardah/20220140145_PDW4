@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>JavaScrript</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <img src="./assets/ghibli2.jpg" alt="candi">
+                <div class="text">
+                    <h2>Streaming Studio Ghibli's Movie</h2>
+                    <p>Studio Ghibli adalah studio animasi Jepang yang berbasis di Koganei, Tokyo.
+                        Studio Ghibli didirikan pada tanggal 15 Juni 1985, oleh sutradara Hayao Miyazaki
+                        dan Isao Takahata serta produser Toshio Suzuki. Maskot dan simbol mereka yang paling
+                        dikenal adalah karakter Totoro dari film My Neighbor Totoro tahun 1988</p>
+                </div>
+            </div>
+
+            <div class="login-form">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <br><br>
+                    <button onclick="myFunction()" type="submit">Login</button>
+                </form>
+            </div>
+            <script>
+                function myFunction() {
+                    alert("Anda berhasil masuk!")
+                }
+            </script>
+        </div>
+
+        <div class="waktu" id="waktu"></div> <!-- Elemen untuk menampilkan waktu -->
+    </div>
+    <script src="script/main.js"></script>
+</body>
+
+</html>

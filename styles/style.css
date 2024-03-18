@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://wallpaperaccess.com/full/42622.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative; /* Menjadikan posisi elemen waktu relatif terhadap container */
+    display: flex;
+    flex-direction: column; /* Menjadikan konten terbentang ke bawah */
+    align-items: center;
+    padding-top: 20px;
+    height: 100vh;
+}
+
+.waktu {
+    position: absolute;
+    top: 5px;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    z-index: 1;
+    }
+    
+
+.card {
+    display: flex;
+    flex-direction: column; /* Menjadikan konten terbentang ke bawah */
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.login-form {
+    width: 100%;
+    padding: 20px;
+    background-color: #bce4f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+.login-form input {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.login-form button {
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(91, 194, 235);
+}
